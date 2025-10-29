@@ -87,4 +87,20 @@ ol li ul {
     list-style: square;
     padding-left: 1.5rem;
 }
+#klossy ul li::before {
+  content: "💙 ";
+  list-style-type: none;
+  margin-right: 0.5rem;
+}
+#SchoolIntern ul li::before {
+  content: "🩵 ";
+  list-style-type: none;
+  margin-right: 0.5rem;
+}
+#DPIIntern ul li::before {
+  content: "🤍 ";
+  list-style-type: none;
+  margin-right: 0.5rem;
+}
+
 
